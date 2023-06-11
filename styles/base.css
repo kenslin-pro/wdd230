@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+
+
+.profile{
+  height: 130px;
+  width: 100px;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  margin-left: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  background-color: black;
+  font-size: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: aliceblue;
+}
+
+.name{
+  margin-left: 50px;
+  color: aliceblue;
+  font-family: Roboto;
+}
+
+nav a{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+
+section ul{
+  list-style-type: none;
+}
+
+h3{
+  margin-top: 0px;
+  background-color: rgb(8, 238, 20);
+  text-align: center;
+  font-size: medium;
+  padding-bottom: 6px;
+  padding-top: 6px;
+}
+
+.activity{
+  display: grid;
+  grid-template-columns: 500px 200px;
+  column-gap: 50px;
+  margin-top: 100px;
+}
+
+.card1{
+margin-left: 10px;
+border-color: black;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+.card2{
+margin-left: 150px;
+border-color: black;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+.card2 a{
+  text-decoration: none;
+  color: black;
+}
+
+h2{
+  margin-top: 40px;
+  margin-left: 100px;
+  font-family: Rock+Salt;
+  border-bottom: 1px solid #353131;
+  margin-bottom: 10px;
+}
+
+header{
+  background-color: rgb(32, 206, 61);
+  display: flex;
+  grid-template-columns: 150px auto;
+}
+footer{
+  background-color: rgb(8, 238, 20);
+  padding: 10px 10px;
+  margin-top:200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
