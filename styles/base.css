@@ -21,6 +21,12 @@ nav {
   color: aliceblue;
 }
 
+.active{
+  background-color: rgb(102, 44, 5);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .name{
   margin-left: 50px;
   color: aliceblue;

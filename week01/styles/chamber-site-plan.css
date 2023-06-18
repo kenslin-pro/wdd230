@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=New+Rocker&display=swap');
+
+
+body {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 4em;
+  font-size: 18px;
+  text-align: center;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);
+}
+
+h1{
+  background-color: rgb(105, 146, 223);
+  padding: 1em;
+
+}
+p{
+  padding: 1em;
+}
+
+hr{
+  height: 3px;
+  margin: 35px 0;
+  background: rgb(105, 146, 223);
+}
+
