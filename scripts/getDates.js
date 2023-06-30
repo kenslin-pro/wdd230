@@ -12,3 +12,13 @@ function updateLastModified() {
 
 updateCurrentYear();
 updateLastModified();
+document.addEventListener("DOMContentLoaded", function() {
+  let visitCount = localStorage.getItem("visitCount");
+  if (visitCount) {
+    visitCount = parseInt(visitCount) + 1;
+  } else {
+    visitCount = 1;
+  }
+  localStorage.setItem("visitCount", visitCount);
+  document.getElementById("visit-counter").textContent = visitCount + " visits";
+});

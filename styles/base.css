@@ -95,3 +95,30 @@ footer{
   justify-content: space-around;
   align-items: center;
 }
+
+.hero-image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 500px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 30px;
+  display: flex;
+  color: white;
+  font-size: 24px;
+  font-style: italic;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-top: 20px;
+  margin-left: 20px;
+}
+iframe{
+  margin-top: 30px;
+  margin-left: 80px;
+}

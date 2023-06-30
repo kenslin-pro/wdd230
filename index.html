@@ -28,7 +28,19 @@
       <a href="#">Form</a>
   </nav>
 
-  <!--main sections-->
+  <div class="hero-image">
+    <picture>
+      <!-- Mobile image (400px) -->
+      <source srcset="temple-mobile.webp" media="(max-width: 400px)">
+      <!-- Larger image (up to 960px) -->
+      <source srcset="temple-large.webp" media="(max-width: 960px)">
+      <!-- Fallback image -->
+      <img src="images/belem_brazil_temple_exterior.jpeg" alt="Favorite Latter-day Temple">
+    </picture>
+    <div class="overlay">
+      <div class="temple-label">Balem Brazil Temple</div>
+    </div>
+  </div>
 
     <main>
       <h2>WDD 230: Web Frontend Development</h2>
@@ -54,7 +66,7 @@
     </div>
       
 
-  <!--footer-->
+    <iframe src="https://goo.gl/maps/HrXogtwaC1zD8gUn7" width="1000" height="300" loading="lazy"></iframe>
 
   <footer>
     <p>
