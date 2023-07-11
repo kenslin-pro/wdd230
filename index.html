@@ -6,6 +6,8 @@
   <title>Kenslin Rohin - WDD 230 - Web Frontend Development</title>
   <meta name="description" content="Welcome to the course assignment portal for WDD 230 - Web Frontend Development. This is a platform designed to help students submit their assignments and track their progress. Created by Kenslin Rohin, this portal provides an organized and efficient way to manage course assignments.">
   <meta name="author" content="Kenslin">
+  <link rel="icon" type="image/png" href="images/icons8-people-100.png">
+  
   <link rel="stylesheet" href="styles/base.css">
   <link rel="stylesheet" href="syles/larger.css">
   
@@ -15,13 +17,14 @@
   <!--header-->
 
   <header>
+    <button id="hamburgerButton">&#8801;</button>
     <img class="profile" src="images/profile.jpg" alt="My profile">
     <h1 class="name">Kenslin Rohin</h1>
   </header>
 
   <!--navigation-->
 
-  <nav>
+  <nav id="mainmenu">
       <a  class = "active"href="#">Home</a>
       <a href="#">Chamber</a>
       <a href="#">Site Plan</a>
@@ -30,11 +33,8 @@
 
   <div class="hero-image">
     <picture>
-      <!-- Mobile image (400px) -->
       <source srcset="temple-mobile.webp" media="(max-width: 400px)">
-      <!-- Larger image (up to 960px) -->
       <source srcset="temple-large.webp" media="(max-width: 960px)">
-      <!-- Fallback image -->
       <img src="images/belem_brazil_temple_exterior.jpeg" alt="Favorite Latter-day Temple">
     </picture>
     <div class="overlay">
@@ -66,8 +66,7 @@
     </div>
       
 
-    <iframe src="https://goo.gl/maps/HrXogtwaC1zD8gUn7" width="1000" height="300" loading="lazy"></iframe>
-
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d127642.26623313651!2d36.831232!3d-1.2812287999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ske!4v1688934051828!5m2!1sen!2ske" width="1000" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   <footer>
     <p>
       &copy;<span id="currentYear" ></span>📍 Kenslin 🗻 Rohin, Kenya
