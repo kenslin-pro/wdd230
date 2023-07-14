@@ -31,28 +31,14 @@
 
 
   <main>
-    <section>
-          <img id="hero-img" src="images/pexels-christina-morillo-1181329.jpg" alt="People in an office">
-          <div class="button-box">
-              <a class="join" href="join.html">Join Now</a>
-          </div>
-      </section>
-  </div>
-    <section class="cta-section">
-      <!-- Call to action link to join the chamber of commerce -->
-    </section>
-
-    <section class="events-section">
-      <!-- Current event(s) section -->
-    </section>
-
-    <section class="weather-section">
-      <!-- Weather card section -->
-    </section>
-
-    <section class="spotlights-section">
-      <!-- Company 'spotlights' advertisements -->
-    </section>
+    <div class="container">
+      <h1>Member Directory</h1>
+      <div class="toggle">
+        <button id="grid-view">Grid View</button>
+        <button id="list-view">List View</button>
+      </div>
+      <div id="members-container"></div>
+    </div>
   </main>
 
   <footer>
@@ -73,6 +59,6 @@
       </div> <span id="last-modified"></span>
     </div>
   </footer>
-
+  <script src="scripts/script.js"></script>
 </body>
 </html>
