@@ -8,14 +8,25 @@
   <link rel="stylesheet" href="styles/form.css">
 </head>
 
-<body>
-  <!-- Header -->
-  <!-- Include the header from your course home page -->
+<header>
+  <div id="mode">
+    ☑️
+  </div><div id="mode">
+    ☑️
+  </div>
+  <img class="profile" src="images/profile.jpg" alt="My profile">
+  <h1 class="name">Kenslin Rohin</h1>
+</header>
 
-  <!-- Navigation -->
-  <!-- Include the navigation from your course home page -->
+<!--navigation-->
 
-  <!-- Main Content -->
+<nav id="menu">
+    <a  class = "active"href="index.html">Home</a>
+    <a href="index1.html">Chamber</a>
+    <a href="chamber-site-plan.html">Site Plan</a>
+    <a href="form.html">Form</a>
+    <button id="hamburger-button">&#9776;</button>
+</nav>
   <main>
     <h1>Form</h1>
 
@@ -51,8 +62,13 @@
     </form>
   </main>
 
-  <!-- Footer -->
-  <!-- Include the footer from your course home page -->
+  <footer>
+    <p>
+      &copy;<span id="currentYear" ></span>📍 Kenslin 🗻 Rohin, Kenya
+    </p>
+    <p id="lastModified"></p>
+  </footer>
+<script src="scripts/getDates.js"></script>
 </body>
 
 </html>
