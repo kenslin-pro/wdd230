@@ -53,6 +53,15 @@
       "image": "image2.jpg",
       "membershipLevel": "Level 2",
       "otherInfo": "Other information 2"
+    },
+    {
+      "name": "Company 7",
+      "address": "Address 2",
+      "phone": "Phone number 2",
+      "website": "URL 2",
+      "image": "image2.jpg",
+      "membershipLevel": "Level 2",
+      "otherInfo": "Other information 2"
     }
     
   ]
