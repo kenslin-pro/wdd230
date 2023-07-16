@@ -158,12 +158,22 @@ footer p a:hover {
   display: grid;
   grid-template-areas: "sidebar main";
   grid-template-columns: 1fr 3fr;
-  /* Adjust column sizes as needed */
   grid-gap: 20px;
-  /* Adjust gap size as needed */
+  margin-left: 50px;
+}
+
+
+.main img {
+  opacity: 0.8;
+  height: 300px;
+  width: 500px;
+  border: 10px solid #d9c2a3;
+  box-shadow: 5px 5px 10px #6f7364;
+  margin-top: 50px;
+
 }
 
 .main img:hover {
-  /* Add your desired hover effect styles */
-  opacity: 0.8;
+  opacity: .6;
+  transform: scale(1.1);
 }
