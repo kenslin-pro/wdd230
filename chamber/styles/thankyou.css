@@ -1,0 +1,19 @@
+body {
+  background-color: #b2d1eb;
+  font-family: Alkalami;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-decoration: underline;
+  align-items: center;
+  margin-top: 300px;
+  margin-left: 300px;
+}
+
+.thanks {
+  align-items: center;
+  margin-left: 300px;
+}
