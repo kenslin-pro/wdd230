@@ -106,3 +106,21 @@ if (lastVisitDate) {
 }
 
 localStorage.setItem('lastVisitDate', Date.now());
+
+//get date
+var currentYear = new Date().getFullYear();
+document.getElementById("currentYear").textContent = currentYear;
+
+// Get the last modified date of the document
+var lastModifiedDate = new Date(document.lastModified);
+document.getElementById("lastModified").textContent = "Last modified: " + lastModifiedDate;
+
+const hamburgerButton = document.getElementById('hamburgerButton');
+const mainMenu = document.getElementById('mainMenu');
+const darkModeToggle = document.getElementById('darkModeToggle');
+const mainContent = document.querySelector('main');
+
+// Hamburger button click event
+hamburgerButton.addEventListener('click', () => {
+  mainMenu.style.display = mainMenu.style.display === 'none' ? 'block' : 'none';
+});
