@@ -5,7 +5,7 @@
       "address": "P.O BOX 6176252 Nairobi",
       "phone": "+254 7583002736788",
       "website": "URL 1",
-      "image": "image1.jpg",
+      "image": "images/image26.png",
       "membershipLevel": "Level 3"
     },
     {
@@ -13,7 +13,7 @@
       "address": "P.O BOX -2u33732-81827 Mandera",
       "phone": "+254 75000393822",
       "website": "URL 2",
-      "image": "image2.jpg",
+      "image": "images/image21.png",
       "membershipLevel": "Level 4"
     },
     {
@@ -21,7 +21,7 @@
       "address": "P.O BOX 7382144-8292",
       "phone": "+254 78390263721",
       "website": "URL 1",
-      "image": "image1.jpg",
+      "image": "images/image22.png",
       "membershipLevel": "Level 1"
     },
     {
@@ -29,7 +29,7 @@
       "address": "P.O BOX 111-93336474 Nakuru",
       "phone": "+254 738900023477",
       "website": "URL 2",
-      "image": "image2.jpg",
+      "image": "images/image23.png",
       "membershipLevel": "Level 3"
     },
     {
@@ -37,7 +37,7 @@
       "address": "P.O BOX 253111-91111 Limuru",
       "phone": "+254 76378-113789",
       "website": "URL 1",
-      "image": "image1.jpg",
+      "image": "images/image24.png",
       "membershipLevel": "Level 1"
     },
     {
@@ -45,7 +45,7 @@
       "address": "P.O BOX 92-17263-827 Mombasa",
       "phone": "+254 70009811777",
       "website": "URL 2",
-      "image": "image2.jpg",
+      "image": "images/image25.png",
       "membershipLevel": "Level 2"
     },
     {
@@ -53,7 +53,7 @@
       "address": "P.O BOX 87299-9181 Nairobi",
       "phone": "+254 7009715242",
       "website": "URL 2",
-      "image": "image2.jpg",
+      "image": "images/image27.png",
       "membershipLevel": "Level 4"
     }
     
