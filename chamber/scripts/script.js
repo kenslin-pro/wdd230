@@ -124,3 +124,11 @@ const mainContent = document.querySelector('main');
 hamburgerButton.addEventListener('click', () => {
   mainMenu.style.display = mainMenu.style.display === 'none' ? 'block' : 'none';
 });
+
+//join
+window.onload = function() {
+  var timestampField = document.getElementById('timestamp');
+  var timestampValue = new Date().toLocaleString();
+  timestampField.value = timestampValue;
+};
+
