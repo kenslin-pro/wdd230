@@ -176,10 +176,11 @@ footer p a:hover {
 /*discovery*/
 
 .activity {
+  margin-top: 50px;
   display: grid;
   grid-template-columns: 700px 500px;
   column-gap: 50px;
-  margin-top: 300px;
+  margin-top: 80px;
 }
 
 .card1 {
