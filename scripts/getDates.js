@@ -16,10 +16,6 @@ hamburgerButton.addEventListener('click', () => {
   mainMenu.style.display = mainMenu.style.display === 'none' ? 'block' : 'none';
 });
 
-// Dark mode toggle button click event
-darkModeToggle.addEventListener('click', () => {
-  mainContent.classList.toggle('dark-mode');
-});
 const modeButton = document.querySelector("#mode");
 const main = document.querySelector("main");
 
