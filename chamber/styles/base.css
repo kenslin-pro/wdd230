@@ -198,10 +198,10 @@ footer p a:hover {
 .card3 {
 
   margin-top: 80px;
-  margin-left: 350px;
+  margin-left: 150px;
   border-color: black;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-  width: 500px;
+  width: 400px;
 }
 
 .card4 {
@@ -256,4 +256,26 @@ input[type="submit"] {
 textarea {
   height: 100px;
   width: 100%;
+}
+
+/*enhancement*/
+#meet-greet-banner {
+  display: none;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-color: black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  width: 800px;
+  text-align: center;
+  margin-left: 250px;
+  margin-top: 50px;
+}
+
+#close-banner {
+  float: right;
+  cursor: pointer;
+  border-color: black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+  background-color: #314f7e;
 }

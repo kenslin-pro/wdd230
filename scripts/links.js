@@ -17,7 +17,8 @@ fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}
   .catch(error => {
     console.log('Error fetching weather data:', error);
   });
-  const baseURL = ' https://kenslin-pro.github.io/wdd230/';
+  
+const baseURL = ' https://kenslin-pro.github.io/wdd230/';
 const linksURL = `${baseURL}data/links.json`;
 
 async function getLinks() {

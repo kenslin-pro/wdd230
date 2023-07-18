@@ -1,3 +1,25 @@
+const apiKey = 'ff9f2ec82564c42998e466a10a7dbb7a';
+const city = 'Nairobi';
+
+fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`)
+  .then(response => response.json())
+  .then(data => {
+    // Process the weather data and update the information card
+    const temperature = Math.round(data.main.temp - 273.15); // Convert from Kelvin to Celsius
+    const description = data.weather[0].description;
+    const icon = data.weather[0].icon;
+
+    // Update the information card with the weather data
+    document.getElementById('temperature').textContent = `${temperature}°C`;
+    document.getElementById('description').textContent = description;
+    document.getElementById('weather-icon').setAttribute('src', `https://openweathermap.org/img/w/${icon}.png`);
+  })
+  .catch(error => {
+    console.log('Error fetching weather data:', error);
+  });
+
+//weather
+
 window.addEventListener('DOMContentLoaded', (event) => {
   const membersContainer = document.getElementById('members-container');
   const gridViewButton = document.getElementById('grid-view');
@@ -130,32 +152,3 @@ window.onload = function() {
 };
 
 //enhancement
-
-// Set your OpenWeatherMap API key
-const apiKey = 'ff9f2ec82564c42998e466a10a7dbb7a';
-
-// Function to fetch the weather data
-async function getWeatherData() {
-  const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=chamber_location&appid=${apiKey}`);
-  const data = await response.json();
-  console.log(data); // Test the JSON result by writing it to the console
-  displayWeatherData(data);
-}
-
-// Function to display the weather data on the home page
-function displayWeatherData(data) {
-  // Extract the relevant information from the data object
-  const temperature = data.main.temp;
-  const weatherDescription = data.weather[0].description;
-
-  // Display the current temperature and weather description on the page
-  const temperatureElement = document.getElementById('current-temperature');
-  temperatureElement.textContent = `Current Temperature: ${temperature}°C`;
-
-  const weatherDescriptionElement = document.getElementById('current-weather');
-  weatherDescriptionElement.textContent = `Weather Description: ${weatherDescription}`;
-}
-
-// Call the getWeatherData function to fetch and display the weather data
-getWeatherData();
-
