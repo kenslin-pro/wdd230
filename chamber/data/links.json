@@ -4,11 +4,11 @@
       "week": "Week 1",
       "links": [
         {
-          "url": "relative-address-1",
+          "url": "relative/address/to/learning/activity/file1",
           "title": "Learning Activity 1"
         },
         {
-          "url": "relative-address-2",
+          "url": "relative/address/to/learning/activity/file2",
           "title": "Learning Activity 2"
         }
       ]
@@ -17,11 +17,11 @@
       "week": "Week 2",
       "links": [
         {
-          "url": "relative-address-3",
+          "url": "relative/address/to/learning/activity/file3",
           "title": "Learning Activity 3"
         },
         {
-          "url": "relative-address-4",
+          "url": "relative/address/to/learning/activity/file4",
           "title": "Learning Activity 4"
         }
       ]
@@ -30,11 +30,11 @@
       "week": "Week 3",
       "links": [
         {
-          "url": "relative-address-5",
+          "url": "relative/address/to/learning/activity/file5",
           "title": "Learning Activity 5"
         },
         {
-          "url": "relative-address-6",
+          "url": "relative/address/to/learning/activity/file6",
           "title": "Learning Activity 6"
         }
       ]
@@ -43,11 +43,11 @@
       "week": "Week 4",
       "links": [
         {
-          "url": "relative-address-7",
+          "url": "relative/address/to/learning/activity/file7",
           "title": "Learning Activity 7"
         },
         {
-          "url": "relative-address-8",
+          "url": "relative/address/to/learning/activity/file8",
           "title": "Learning Activity 8"
         }
       ]
@@ -56,11 +56,11 @@
       "week": "Week 5",
       "links": [
         {
-          "url": "relative-address-9",
+          "url": "relative/address/to/learning/activity/file9",
           "title": "Learning Activity 9"
         },
         {
-          "url": "relative-address-10",
+          "url": "relative/address/to/learning/activity/file10",
           "title": "Learning Activity 10"
         }
       ]

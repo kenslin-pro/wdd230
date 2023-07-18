@@ -50,7 +50,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
     memberCard.appendChild(membershipLevel);
 
 
-    // Add more member details as needed
 
     membersContainer.appendChild(memberCard);
   }
@@ -79,8 +78,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
     address.textContent = member.membershipLevel;
     memberItem.appendChild(membershipLevel);
 
-
-    // Add more member details as needed
 
     membersContainer.appendChild(memberItem);
   }
