@@ -50,7 +50,7 @@ $(document).ready(function () {
       member.membershipLevel === "gold"
     );
   });
-
+  
   // Randomly load qualified member advertisements
   var randomMemberIndex = Math.floor(
     Math.random() * qualifiedMembers.length
@@ -59,6 +59,10 @@ $(document).ready(function () {
 
   $("#spotlight-member").text(randomMember.name);
   $("#spotlight-advertisement").text(randomMember.advertisement);
+  $("#spotlight-member1").text(randomMember.name);
+  $("#spotlight-advertisement1").text(randomMember.advertisement);
+  $("#spotlight-member2").text(randomMember.name);
+  $("#spotlight-advertisement2").text(randomMember.advertisement);
 
   // Chamber meet and greet banner
   var today = new Date();
